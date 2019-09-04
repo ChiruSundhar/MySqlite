@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MySqlite</string>
+    <string name="addUser">AddUser</string>
+    <string name="phno">PhNo</string>
+    <string name="lastname">LastName</string>
+    <string name="firstname">FirstName</string>
+    <string name="view_all_users">View all Users</string>
+    <string name="salary">salary</string>
+    <string name="Firstname">Firstname</string>
+    <string name="Lastname">Lastname</string>
+    <string name="Salary">Salary</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="enter_salary">Enter Salary</string>
+    <string name="update">Update</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+</resources>

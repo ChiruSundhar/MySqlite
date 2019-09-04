@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="10"
+        android:inputType="textPersonName"
+        android:hint="@string/firstname"
+        android:importantForAutofill="no" tools:targetApi="o"/>
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="10"
+        android:inputType="textPersonName"
+        android:hint="@string/lastname"
+        android:importantForAutofill="no" tools:targetApi="o"/>
+
+    <EditText
+        android:id="@+id/salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="6"
+        android:inputType="number"
+        android:hint="@string/salary"
+        android:importantForAutofill="no" tools:targetApi="o"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/addUser" />
+
+    <TextView
+        android:id="@+id/viewusers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:text="@string/view_all_users"
+        android:textSize="16sp" />
+</LinearLayout>

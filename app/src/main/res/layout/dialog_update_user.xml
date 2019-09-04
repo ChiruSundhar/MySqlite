@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/efirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_first_name"
+        android:importantForAutofill="no"
+        android:maxLength="10"
+        android:inputType="" tools:targetApi="o"/>
+    <EditText
+        android:id="@+id/elastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_last_name"
+        android:importantForAutofill="no"
+        android:maxLength="10"
+        android:inputType="" tools:targetApi="o"/>
+
+
+    <EditText
+        android:id="@+id/esalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_salary"
+        android:inputType="number"
+        android:maxLength="6"
+        android:importantForAutofill="no" tools:targetApi="o"/>
+
+    <Button
+        android:id="@+id/buttonUpdateUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update" />
+
+
+</LinearLayout>
